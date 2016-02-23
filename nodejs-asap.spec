@@ -5,7 +5,7 @@
 
 Name:       %{?scl_prefix}nodejs-asap
 Version:    1.0.0
-Release:    4%{?dist}
+Release:    5%{?dist}
 Summary:    High-priority task queue for Node.js and browser
 License:    MIT
 Group:      System Environment/Libraries
@@ -42,6 +42,9 @@ cp -pr package.json asap.js \
 %{nodejs_sitelib}/asap
 
 %changelog
+* Sun Feb 14 2016 Zuzana Svetlikova <zsvetlik@redhat.com> - 1.0.0-5
+- rebuilt
+
 * Thu Nov 26 2015 Tomas Hrcka <thrcka@redhat.com> - 1.0.0-4
 - Enable scl macros
 
