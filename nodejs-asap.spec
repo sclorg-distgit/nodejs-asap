@@ -7,8 +7,8 @@
 %{?nodejs_find_provides_and_requires}
 
 Name:       %{?scl_prefix}nodejs-asap
-Version:    2.0.4
-Release:    1%{?dist}
+Version:        2.0.5
+Release:        1%{?dist}
 Summary:    High-priority task queue for Node.js and browser
 License:    MIT
 URL:        https://github.com/kriskowal/asap
@@ -53,6 +53,9 @@ cp -pr package.json *.js \
 %{nodejs_sitelib}/asap
 
 %changelog
+* Thu Jan 05 2017 Zuzana Svetlikova <zsvetlik@redhat.com> - 2.0.5-1
+- Updated with script
+
 * Tue Sep 06 2016 Zuzana Svetlikova <zsvetlik@redhat.com> - 2.0.4-1
 - Update, add tests
 
